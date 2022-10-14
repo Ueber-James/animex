@@ -7,7 +7,7 @@
 main {
   background: rgba(17, 12, 31, 1);
 }
-
+/* menu */
 .menu-container {
   margin-left: auto;
   margin-right: auto;
@@ -17,8 +17,7 @@ main {
   width: 100%;
   top: 1px;
   background-image: linear-gradient(to right, #211e2f 40%, #11052c 60%);
-  border: 5px solid rgba(43, 31, 70, 1)
-  ;
+  border: 5px solid rgba(43, 31, 70, 1);
   border-radius: 0px 0px 15px 15px;
 }
 
@@ -29,23 +28,41 @@ main {
   width: 40%;
   height: 100%;
   list-style: none;
+  padding: 12px 0 12px 22px;
 }
 
-.nav-menu{
-    display: flex;
+.nav-menu {
+  display: flex;
   justify-content: flex-end;
   align-items: center;
- 
-  
+}
+
+
+.nav-menu li {
+  padding-right: 70px;
+  margin: 0px;
+  display: inline;
+  list-style: none;
   
 }
 
 
-.nav-menu li{
-    padding-right: 70px;
-    margin: 0px;
-    display: inline;
-    list-style: none;
-  }
 
-  
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+   
+    .nav-menu{
+        display: none;
+    }
+    
+    .img-logo{
+        width: 100%;
+    }
+
+}
