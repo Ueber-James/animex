@@ -1,0 +1,50 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+main {
+  background: rgba(17, 12, 31, 1);
+}
+
+.menu-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top: 1px;
+  background-image: linear-gradient(to right, #211e2f 40%, #11052c 60%);
+  border: 5px solid rgba(43, 31, 70, 1)
+  ;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.logo-anime {
+  display: inline-block;
+  align-items: center;
+  align-content: center;
+  width: 40%;
+  height: 100%;
+}
+
+.nav-menu{
+    display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ 
+  
+  
+}
+
+
+.nav-menu li{
+    padding-right: 70px;
+    margin: 0px;
+    display: inline;
+    list-style: none;
+  }
+
+  
